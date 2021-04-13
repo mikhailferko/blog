@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Блог</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" href="css/bootstrap.css">
+</head>
+<body>
+    <div th:replace="blocks/header :: header"></div>
+<div class="container mt-5">
+    <h1 th:text="${title}" />
+</div>
+    <div th:replace="blocks/footer :: footer"></div>
+</body>
+</html>
